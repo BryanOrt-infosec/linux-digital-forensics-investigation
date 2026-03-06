@@ -85,7 +85,7 @@ The investigation began by creating a dedicated project directory to store evide
 
 Commands used:
 
-```
+``
 mkdir it-forensics-project
 cd it-forensics-project
 mkdir evidence
@@ -103,9 +103,9 @@ The `file` command was used to determine the type of the suspicious file.
 
 Command used:
 
-
+``
 file suspicious_file.txt
-
+```
 
 ![File Type Check](screenshots/02-file-type-check.png)
 
