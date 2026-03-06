@@ -1,0 +1,8 @@
+username: admin
+password: password123
+
+connect to 192.168.1.50
+
+ssh to root@server
+
+Hidden message: steal data

@@ -1,0 +1,24 @@
+Digital Forensics Investigation Notes
+
+Case Summary:
+A suspicious text file was discovered on a Linux system and reviewed for forensic indicators.
+
+Evidence Reviewed:
+-suspicious_file.txt
+
+Analysis Performed:
+1.Identified the file type using the file command
+2.Generated a SHA-256 hash to preserve file intergrity
+3.Viewed file contents
+4.Extracted readable strings
+5.Searched for suspicious indicators using grep
+
+Indicators Identified:
+-Username found: Admin
+-Password found in plain text: password123
+-Ip address found: 192.168.1.50
+-SSH command found: ssh root@server
+-Suspicious phrase found: "steal data"
+
+Conclusion:
+Th file contains sensitive credentias, remote access references, and suspicious text that may indicate malicious activity or unauthorized access attempts. Based on the findings, the file should be treated as suspicious and preserved as evidence for further investigation. 
