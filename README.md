@@ -91,7 +91,7 @@ cd it-forensics-project
 mkdir evidence
 mkdir screenshots
 ls
-
+```
 
 ![Project Workspace](screenshots/01-project-folders.png)
 
