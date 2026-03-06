@@ -85,7 +85,7 @@ The investigation began by creating a dedicated project directory to store evide
 
 Commands used:
 
-
+```
 mkdir it-forensics-project
 cd it-forensics-project
 mkdir evidence
