@@ -81,17 +81,13 @@ it-forensics-project/
 
 ### 1. Created the Project Workspace
 
-The investigation began by creating a dedicated project directory to store evidence and screenshots.
-
 Commands used:
 
-``
-mkdir it-forensics-project
-cd it-forensics-project
-mkdir evidence
-mkdir screenshots
-ls
-```
+mkdir it-forensics-project  
+cd it-forensics-project  
+mkdir evidence  
+mkdir screenshots  
+ls  
 
 ![Project Workspace](screenshots/01-project-folders.png)
 
@@ -99,69 +95,51 @@ ls
 
 ### 2. Identify the File Type
 
-The `file` command was used to determine the type of the suspicious file.
-
 Command used:
 
-``
 file suspicious_file.txt
-```
 
-![File Type Check](screenshots/02-file-type-check.png)
+![File Type](screenshots/03-file-type-check.png)
 
 ---
 
 ### 3. Generate SHA256 Hash
 
-A SHA256 hash was generated to verify file integrity.
-
 Command used:
-
 
 sha256sum suspicious_file.txt
 
-
-![SHA256 Hash](screenshots/03-sha256-hash.png)
+![SHA256 Hash](screenshots/04-sha256-hash.png)
 
 ---
 
 ### 4. View File Contents
 
-The contents of the suspicious file were displayed.
-
 Command used:
-
 
 cat suspicious_file.txt
 
-
-![File Contents](screenshots/04-file-contents.png)
+![File Contents](screenshots/05-file-contents.png)
 
 ---
 
-### 5. Extract Readable Strings
-
-The `strings` command was used to extract readable text from the file.
+### 5. Extract Strings
 
 Command used:
-
 
 strings suspicious_file.txt
 
-
-![Strings Output](screenshots/05-strings-output.png)
+![Strings Output](screenshots/06-strings-output.png)
 
 ---
 
-### 6. Search for Credentials
+### 6. Search for Password
 
 Command used:
 
-
 grep "password" suspicious_file.txt
 
-
-![Password Search](screenshots/06-password-search.png)
+![Password Search](screenshots/07-password-search.png)
 
 ---
 
@@ -169,23 +147,19 @@ grep "password" suspicious_file.txt
 
 Command used:
 
-
 grep "192.168.1.50" suspicious_file.txt
 
-
-![IP Search](screenshots/07-ip-search.png)
+![IP Search](screenshots/08-ip-search.png)
 
 ---
 
-### 8. Search for SSH Commands
+### 8. Search for SSH Command
 
 Command used:
 
-
 grep "ssh" suspicious_file.txt
 
-
-![SSH Search](screenshots/08-ssh-search.png)
+![SSH Search](screenshots/09-ssh-search.png)
 
 ---
 
@@ -193,24 +167,20 @@ grep "ssh" suspicious_file.txt
 
 Command used:
 
-
 grep "steal data" suspicious_file.txt
 
-
-![Malicious Phrase](screenshots/9-malicious-phrase-search.png)
+![Malicious Phrase](screenshots/10-malicious-phrase-search.png)
 
 ---
 
-### 10. Document Investigation Notes
+### 10. Investigation Notes
 
 The findings were documented in a notes file.
 
-![Investigation Notes](screenshots/10-investigation-notes.png)
+![Investigation Notes](screenshots/11-investigation-notes.png)
 
 ---
 
 ## Conclusion
 
-This investigation demonstrates how basic Linux tools can be used to analyze suspicious files and identify potential indicators of compromise. Through hashing, string extraction, and pattern searching, it is possible to uncover sensitive information and suspicious activity within files.
-
-This project highlights the importance of documentation, structured analysis, and evidence preservation in cybersecurity investigations.
+This project demonstrates how Linux command-line tools can be used to perform a basic digital forensics investigation, identify suspicious indicators, and document findings in a structured manner.
