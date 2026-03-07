@@ -89,7 +89,7 @@ mkdir evidence
 mkdir screenshots  
 ls  
 ```
-![Project Workspace](screenshots/01-project-folders.png)
+![Project Workspace](screenshots/03-project-folders.png)
 
 ---
 
@@ -100,7 +100,7 @@ Command used:
 file suspicious_file.txt
 
 
-![File Type](screenshots/03-file-type-check.png)
+![File Type](screenshots/04-file-type-check.png)
 
 ---
 
@@ -110,7 +110,7 @@ Command used:
 
 sha256sum suspicious_file.txt
 
-![SHA256 Hash](screenshots/04-sha256-hash.png)
+![SHA256 Hash](screenshots/05-sha256-hash.png)
 
 ---
 
@@ -120,7 +120,7 @@ Command used:
 
 cat suspicious_file.txt
 
-![File Contents](screenshots/05-file-contents.png)
+![File Contents](screenshots/06-file-contents.png)
 
 ---
 
@@ -130,7 +130,7 @@ Command used:
 
 strings suspicious_file.txt
 
-![Strings Output](screenshots/06-strings-output.png)
+![Strings Output](screenshots/07-strings-output.png)
 
 ---
 
@@ -140,7 +140,7 @@ Command used:
 
 grep "password" suspicious_file.txt
 
-![Password Search](screenshots/07-password-search.png)
+![Password Search](screenshots/08-password-search.png)
 
 ---
 
@@ -150,7 +150,7 @@ Command used:
 
 grep "192.168.1.50" suspicious_file.txt
 
-![IP Search](screenshots/08-ip-search.png)
+![IP Search](screenshots/09-ip-search.png)
 
 ---
 
@@ -160,7 +160,7 @@ Command used:
 
 grep "ssh" suspicious_file.txt
 
-![SSH Search](screenshots/09-ssh-search.png)
+![SSH Search](screenshots/10-ssh-search.png)
 
 ---
 
@@ -170,7 +170,7 @@ Command used:
 
 grep "steal data" suspicious_file.txt
 
-![Malicious Phrase](screenshots/10-malicious-phrase-search.png)
+![Malicious Phrase](screenshots/11-malicious-phrase-search.png)
 
 ---
 
@@ -178,7 +178,7 @@ grep "steal data" suspicious_file.txt
 
 The findings were documented in a notes file.
 
-![Investigation Notes](screenshots/11-investigation-notes.png)
+![Investigation Notes](screenshots/12-investigation-notes.png)
 
 ---
 
