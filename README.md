@@ -88,7 +88,7 @@ cd it-forensics-project
 mkdir evidence  
 mkdir screenshots  
 ls  
-
+```
 ![Project Workspace](screenshots/01-project-folders.png)
 
 ---
@@ -98,6 +98,7 @@ ls
 Command used:
 
 file suspicious_file.txt
+
 
 ![File Type](screenshots/03-file-type-check.png)
 
